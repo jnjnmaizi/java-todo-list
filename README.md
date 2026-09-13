@@ -4,9 +4,26 @@ A Java application for organizing personal, important, and work tasks. It combin
 
 The project uses inheritance to give each task type its own details, while sharing the same operations for adding, finding, completing, and removing tasks.
 
-## Program Output
+## GUI and Output
 
-See [OUTPUT.md](OUTPUT.md) for a sample run showing task details, subtasks, completion, and error messages. You can reproduce it with [ExampleRun.java](ExampleRun.java).
+The main window provides buttons for adding, displaying, completing, and removing tasks.
+
+![Main window preview](gui-main.png)
+
+This preview is rendered from the Swing layout using the cross-platform look and feel. It is not a live desktop screenshot; window borders and fonts can differ on your computer.
+
+Task details appear in the terminal or IDE output window. For example:
+
+```text
+Task : Buy groceries , marked as done .
+[Personal Task]
+Title: Buy groceries
+Note: Milk and fruit
+Completed: true
+----------------------
+```
+
+See [OUTPUT.md](OUTPUT.md) for all four GUI previews and the full console output. Run [ExampleRun.java](ExampleRun.java) to reproduce the console example.
 
 ## Features
 
@@ -54,6 +71,10 @@ java-todo-list/
 ├── AddWorkTaskFrame.java
 ├── testToDo.java                  # Console setup, GUI, and console menu
 ├── ExampleRun.java               # Reproducible console example
+├── gui-main.png                  # Rendered main-window preview
+├── gui-personal.png              # Rendered personal-task form
+├── gui-important.png             # Rendered important-task form
+├── gui-work.png                  # Rendered work-task form
 ├── OUTPUT.md
 ├── README.md
 └── .gitignore

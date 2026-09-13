@@ -1,6 +1,30 @@
-# Program Output
+# GUI and Program Output
 
-This output was captured by running `ExampleRun` with the project's task and linked-list classes. It demonstrates the task logic in the console; it is not a recording of the Swing windows.
+## GUI Preview
+
+These images were rendered from the project's Swing component layouts, with sample form values, using the cross-platform look and feel. They show the main window and the three task forms. The desktop application could not launch in the capture environment, so these are offscreen previews, not live desktop screenshots or evidence of tested button interactions. The temporary rendering code replaces the window shell with a panel; the application source is unchanged.
+
+### Main Window
+
+![Main window preview](gui-main.png)
+
+### Personal Task
+
+![Personal task form preview](gui-personal.png)
+
+### Important Task
+
+![Important task form preview](gui-important.png)
+
+### Work Task
+
+![Work task form preview](gui-work.png)
+
+The work-task form asks for the number and names of subtasks in separate dialogs after selecting **Add Task**. Those dialogs are not pictured here.
+
+## Program Output
+
+The console output below was captured by running `ExampleRun` with the project's task and linked-list classes. **Display All Tasks** in the GUI also writes to the terminal or IDE output window.
 
 ## Run the Example
 
