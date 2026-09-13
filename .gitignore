@@ -1,0 +1,15 @@
+# Generated files
+*.class
+/out/
+/build/
+/dist/
+/target/
+tasks.dat
+
+# IDE and system files
+nbproject/private/
+.idea/
+*.iml
+.vscode/
+.DS_Store
+__MACOSX/
